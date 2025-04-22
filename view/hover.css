@@ -1,0 +1,34 @@
+:root {
+    --transition: opacity 50ms ease-in-out
+}
+
+.blur {
+    opacity: calc(var(--original-opacity) / 5);
+    transition: var(--transition);
+}
+
+:not(.blur) {
+    opacity: var(--original-opacity);
+    transition: var(--transition);
+}
+
+.d3-tip {
+    pointer-events: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px;
+    max-width: 400px;
+
+    p {
+        margin: 0;
+    }
+
+    p.fade {
+        opacity: 0.6;
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}

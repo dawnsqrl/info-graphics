@@ -1,0 +1,11 @@
+.ribbon {
+    --original-opacity: 0.4;
+}
+
+.chord.type {
+    --original-opacity: 0.8;
+}
+
+.chord.node {
+    --original-opacity: 0.6;
+}

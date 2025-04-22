@@ -1,0 +1,1019 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 21,
+      "code": "Infographics is a type of non-pictorial graphics and includes bar charts, line graphs, etc."
+    },
+    {
+      "id": 2,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 34,
+      "code": "Infographics contains visual embellishments superimposed over more basic visualizations"
+    },
+    {
+      "id": 3,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 1,
+      "code": "Infographics sometimes misuses visual embellishments"
+    },
+    {
+      "id": 4,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 43,
+      "code": "Infographics contains diverse and effective visual representations of data"
+    },
+    {
+      "id": 5,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 18,
+      "code": "Infographics uses aesthetic designs"
+    },
+    {
+      "id": 6,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 8,
+      "code": "Infographics uses color as an important component"
+    },
+    {
+      "id": 7,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 27,
+      "code": "Infographics consists of smaller graphical components"
+    },
+    {
+      "id": 8,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 24,
+      "code": "Infographics is a mix of graphical and textual elements"
+    },
+    {
+      "id": 9,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 5,
+      "code": "Infographics uses minimal text"
+    },
+    {
+      "id": 10,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 8,
+      "code": "Infographics has a large design space"
+    },
+    {
+      "id": 11,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 17,
+      "code": "Infographics often follows specific design patterns"
+    },
+    {
+      "id": 12,
+      "type": "Meaning",
+      "category": "Design",
+      "count": 4,
+      "code": "Infographics design patterns are comparable to those of other domains, such as web design and education"
+    },
+    {
+      "id": 13,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 40,
+      "code": "Infographics attracts readers and draws their attention"
+    },
+    {
+      "id": 14,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 4,
+      "code": "Infographics triggers emotional response in readers"
+    },
+    {
+      "id": 15,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 13,
+      "code": "Infographics promotes knowledge retention"
+    },
+    {
+      "id": 16,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 38,
+      "code": "Infographics lowers the cognitive barrier of understanding data"
+    },
+    {
+      "id": 17,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 23,
+      "code": "Infographics summarizes / simplifies information"
+    },
+    {
+      "id": 18,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 67,
+      "code": "Infographics faciliates / accelerates communication of data or other information"
+    },
+    {
+      "id": 19,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 55,
+      "code": "Infographics has a certain high-level narrative goal"
+    },
+    {
+      "id": 20,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 17,
+      "code": "Infographics makes information more accessible to a broad range of readers"
+    },
+    {
+      "id": 21,
+      "type": "Meaning",
+      "category": "Goal",
+      "count": 11,
+      "code": "Interactive infographics gives readers the freedom to navigate the chart on their own"
+    },
+    {
+      "id": 22,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 70,
+      "code": "Infographics visualizes data or relationship between data"
+    },
+    {
+      "id": 23,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics presents information in a way that is abstract / intangible"
+    },
+    {
+      "id": 24,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 15,
+      "code": "Infographics is dense in information"
+    },
+    {
+      "id": 25,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 2,
+      "code": "Infographics sometimes fails to fulfill its narrative goal"
+    },
+    {
+      "id": 26,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics should be accompanied by alt text"
+    },
+    {
+      "id": 27,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 3,
+      "code": "Infographics is a form of language"
+    },
+    {
+      "id": 28,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 7,
+      "code": "Infographics expects readers to consume content sequentially"
+    },
+    {
+      "id": 29,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 4,
+      "code": "Infographics does not require readers to consume content linearly"
+    },
+    {
+      "id": 30,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 5,
+      "code": "Infographics requires readers to think actively about it to get the intended message"
+    },
+    {
+      "id": 31,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics does not require readers to think actively about it to get the intended message"
+    },
+    {
+      "id": 32,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 5,
+      "code": "Infographics is not accessible to certain reader populations"
+    },
+    {
+      "id": 33,
+      "type": "Meaning",
+      "category": "Content",
+      "count": 7,
+      "code": "Infographics is tailored to specific reader populations"
+    },
+    {
+      "id": 34,
+      "type": "Meaning",
+      "category": "Authoring",
+      "count": 28,
+      "code": "Infographics can be designed through various means"
+    },
+    {
+      "id": 35,
+      "type": "Meaning",
+      "category": "Authoring",
+      "count": 18,
+      "code": "Infographics is difficult to produce"
+    },
+    {
+      "id": 36,
+      "type": "Meaning",
+      "category": "Authoring",
+      "count": 9,
+      "code": "Novel infographics authoring methods are being explored"
+    },
+    {
+      "id": 37,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 6,
+      "code": "Infographics is used for scientific literature"
+    },
+    {
+      "id": 38,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 8,
+      "code": "Infographics is used for business"
+    },
+    {
+      "id": 39,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 21,
+      "code": "Infographics is used in popular media"
+    },
+    {
+      "id": 40,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 8,
+      "code": "Infographics is used in digital media, such as e-documents"
+    },
+    {
+      "id": 41,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 3,
+      "code": "Infographics is used for gaming experiences"
+    },
+    {
+      "id": 42,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 40,
+      "code": "Infographics is used for education"
+    },
+    {
+      "id": 43,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 13,
+      "code": "Infographics is used as part of a multimodal document to accompany / augment the main text"
+    },
+    {
+      "id": 44,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 2,
+      "code": "Infographics may be used standalone and independent from other sources of information"
+    },
+    {
+      "id": 45,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 28,
+      "code": "Infographics can be combined with other media formats, like animation"
+    },
+    {
+      "id": 46,
+      "type": "Meaning",
+      "category": "Application",
+      "count": 1,
+      "code": "Infographics is not effective for threatical settings"
+    },
+    {
+      "id": 47,
+      "type": "Example",
+      "category": "Design",
+      "count": 8,
+      "code": "Infographics may use bar charts, line graphs, etc."
+    },
+    {
+      "id": 48,
+      "type": "Example",
+      "category": "Design",
+      "count": 9,
+      "code": "Infographics may use hierarchical / composite layouts"
+    },
+    {
+      "id": 49,
+      "type": "Example",
+      "category": "Design",
+      "count": 6,
+      "code": "Infographics may use linear layouts"
+    },
+    {
+      "id": 50,
+      "type": "Example",
+      "category": "Design",
+      "count": 6,
+      "code": "Infographics may use non-linear layouts"
+    },
+    {
+      "id": 51,
+      "type": "Example",
+      "category": "Design",
+      "count": 3,
+      "code": "Infographics may use small multiples"
+    },
+    {
+      "id": 52,
+      "type": "Example",
+      "category": "Design",
+      "count": 1,
+      "code": "Infographics does not use panels"
+    },
+    {
+      "id": 53,
+      "type": "Example",
+      "category": "Design",
+      "count": 5,
+      "code": "Infographics contains visual embellishments"
+    },
+    {
+      "id": 54,
+      "type": "Example",
+      "category": "Design",
+      "count": 18,
+      "code": "Infographics uses diverse data encodings / representations"
+    },
+    {
+      "id": 55,
+      "type": "Example",
+      "category": "Design",
+      "count": 7,
+      "code": "Infographics uses aesthetic designs"
+    },
+    {
+      "id": 56,
+      "type": "Example",
+      "category": "Design",
+      "count": 9,
+      "code": "Infographics is a mix of graphical and textual elements"
+    },
+    {
+      "id": 57,
+      "type": "Example",
+      "category": "Design",
+      "count": 2,
+      "code": "Infographics uses minimal text"
+    },
+    {
+      "id": 58,
+      "type": "Example",
+      "category": "Design",
+      "count": 1,
+      "code": "Infographics may superimpose textual elements over graphical elements"
+    },
+    {
+      "id": 59,
+      "type": "Example",
+      "category": "Design",
+      "count": 1,
+      "code": "Infographics may rotate textual elements for layout purposes"
+    },
+    {
+      "id": 60,
+      "type": "Example",
+      "category": "Design",
+      "count": 1,
+      "code": "Infographics may use a variety of typographic features for textual elements"
+    },
+    {
+      "id": 61,
+      "type": "Example",
+      "category": "Goal",
+      "count": 5,
+      "code": "Infographics aims to lead reader's attention"
+    },
+    {
+      "id": 62,
+      "type": "Example",
+      "category": "Goal",
+      "count": 5,
+      "code": "Infographics aims to draw reader's attention"
+    },
+    {
+      "id": 63,
+      "type": "Example",
+      "category": "Goal",
+      "count": 1,
+      "code": "Infographics triggers emotional response in readers"
+    },
+    {
+      "id": 64,
+      "type": "Example",
+      "category": "Goal",
+      "count": 3,
+      "code": "Infographics aims to be memorable"
+    },
+    {
+      "id": 65,
+      "type": "Example",
+      "category": "Goal",
+      "count": 1,
+      "code": "The longer readers spend looking at an infographics, the greater value it has"
+    },
+    {
+      "id": 66,
+      "type": "Example",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics has many sub-categories"
+    },
+    {
+      "id": 67,
+      "type": "Example",
+      "category": "Content",
+      "count": 7,
+      "code": "Infographics shows raw data values"
+    },
+    {
+      "id": 68,
+      "type": "Example",
+      "category": "Content",
+      "count": 2,
+      "code": "Infographics is not accessible to certain reader populations"
+    },
+    {
+      "id": 69,
+      "type": "Example",
+      "category": "Application",
+      "count": 5,
+      "code": "Infographics may support interaction"
+    },
+    {
+      "id": 70,
+      "type": "Example",
+      "category": "Application",
+      "count": 6,
+      "code": "Infographics may be presented on a physical medium"
+    },
+    {
+      "id": 71,
+      "type": "Example",
+      "category": "Application",
+      "count": 2,
+      "code": "Infographics may be used standalone and independent from other sources of information"
+    },
+    {
+      "id": 72,
+      "type": "Comparison",
+      "category": "Design",
+      "count": 2,
+      "code": "Infographics is loosely structured in layout"
+    },
+    {
+      "id": 73,
+      "type": "Comparison",
+      "category": "Design",
+      "count": 5,
+      "code": "Infographics uses aesthetic designs"
+    },
+    {
+      "id": 74,
+      "type": "Comparison",
+      "category": "Design",
+      "count": 2,
+      "code": "Infographics does not use panels"
+    },
+    {
+      "id": 75,
+      "type": "Comparison",
+      "category": "Design",
+      "count": 2,
+      "code": "Infographics does not use visual guides to lead reader's attention"
+    },
+    {
+      "id": 76,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics can provide a hierarchy of details"
+    },
+    {
+      "id": 77,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 3,
+      "code": "Infographics follows a linear narrative"
+    },
+    {
+      "id": 78,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 7,
+      "code": "Infographics does not follow a linear narrative"
+    },
+    {
+      "id": 79,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 4,
+      "code": "Infographics uses inline textual annotations for illustration purposes"
+    },
+    {
+      "id": 80,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 6,
+      "code": "Infographics is good at presenting spacial relationships"
+    },
+    {
+      "id": 81,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 3,
+      "code": "Infographics can convey temporal information"
+    },
+    {
+      "id": 82,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 3,
+      "code": "Infographics does not have a temporal dimension"
+    },
+    {
+      "id": 83,
+      "type": "Comparison",
+      "category": "Content",
+      "count": 1,
+      "code": "Infographics is not accessible to certain reader populations"
+    },
+    {
+      "id": 84,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 21,
+      "code": "Infographics is a type of data visualization"
+    },
+    {
+      "id": 85,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 2,
+      "code": "Infographics is different from data visualization"
+    },
+    {
+      "id": 86,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 13,
+      "code": "Infographics includes bar charts, line graphs, etc."
+    },
+    {
+      "id": 87,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 1,
+      "code": "Infographics includes data comics"
+    },
+    {
+      "id": 88,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 24,
+      "code": "Infographics is a different type of data visualization from charts and data comics"
+    },
+    {
+      "id": 89,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 12,
+      "code": "Infographics is (similar to) embellished / annotated versions of more basic visualizations"
+    },
+    {
+      "id": 90,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 8,
+      "code": "Infographics features a strong integration of visual and textual elements"
+    },
+    {
+      "id": 91,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 3,
+      "code": "Infographics features a weaker integration of visual and textual elements"
+    },
+    {
+      "id": 92,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 1,
+      "code": "Textual elements are less important in infographics"
+    },
+    {
+      "id": 93,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 7,
+      "code": "Infographics results in good reader engagement"
+    },
+    {
+      "id": 94,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 3,
+      "code": "Infographics is less engaging for readers"
+    },
+    {
+      "id": 95,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 4,
+      "code": "Infographics results in good knowledge retention"
+    },
+    {
+      "id": 96,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 1,
+      "code": "Infographics results in worse knowledge retention"
+    },
+    {
+      "id": 97,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 2,
+      "code": "Infographics results in good knowledge comprehension"
+    },
+    {
+      "id": 98,
+      "type": "Comparison",
+      "category": "Comparison",
+      "count": 2,
+      "code": "Infographics results in worse knowledge comprehension"
+    },
+    {
+      "id": 99,
+      "type": "Comparison",
+      "category": "Authoring",
+      "count": 7,
+      "code": "Infographics authoring is a type of graphics design"
+    },
+    {
+      "id": 100,
+      "type": "Comparison",
+      "category": "Application",
+      "count": 27,
+      "code": "Infographics is suitable for data communication"
+    },
+    {
+      "id": 101,
+      "type": "Comparison",
+      "category": "Application",
+      "count": 3,
+      "code": "Infographics is suitable for data exploration"
+    },
+    {
+      "id": 102,
+      "type": "Comparison",
+      "category": "Application",
+      "count": 2,
+      "code": "Infographics is not suitable for data exploration"
+    },
+    {
+      "id": 103,
+      "type": "Comparison",
+      "category": "Application",
+      "count": 2,
+      "code": "Infographics is suitable for data comparison"
+    },
+    {
+      "id": 104,
+      "type": "Comparison",
+      "category": "Application",
+      "count": 5,
+      "code": "Infographics can be combined with other media formats, like animation"
+    }
+  ],
+  "links": [
+    {
+      "source": 3,
+      "target": 2,
+      "relation": "Related"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "relation": "Contrary"
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "relation": "Contrary"
+    },
+    {
+      "source": 25,
+      "target": 19,
+      "relation": "Related"
+    },
+    {
+      "source": 28,
+      "target": 29,
+      "relation": "Contrary"
+    },
+    {
+      "source": 29,
+      "target": 28,
+      "relation": "Contrary"
+    },
+    {
+      "source": 30,
+      "target": 31,
+      "relation": "Contrary"
+    },
+    {
+      "source": 31,
+      "target": 30,
+      "relation": "Contrary"
+    },
+    {
+      "source": 32,
+      "target": 20,
+      "relation": "Related"
+    },
+    {
+      "source": 52,
+      "target": 74,
+      "relation": "Similar"
+    },
+    {
+      "source": 53,
+      "target": 2,
+      "relation": "Similar"
+    },
+    {
+      "source": 54,
+      "target": 4,
+      "relation": "Similar"
+    },
+    {
+      "source": 55,
+      "target": 5,
+      "relation": "Similar"
+    },
+    {
+      "source": 56,
+      "target": 57,
+      "relation": "Contrary"
+    },
+    {
+      "source": 56,
+      "target": 8,
+      "relation": "Similar"
+    },
+    {
+      "source": 57,
+      "target": 56,
+      "relation": "Contrary"
+    },
+    {
+      "source": 57,
+      "target": 9,
+      "relation": "Similar"
+    },
+    {
+      "source": 62,
+      "target": 13,
+      "relation": "Similar"
+    },
+    {
+      "source": 63,
+      "target": 14,
+      "relation": "Similar"
+    },
+    {
+      "source": 64,
+      "target": 15,
+      "relation": "Similar"
+    },
+    {
+      "source": 68,
+      "target": 32,
+      "relation": "Similar"
+    },
+    {
+      "source": 69,
+      "target": 21,
+      "relation": "Related"
+    },
+    {
+      "source": 71,
+      "target": 44,
+      "relation": "Similar"
+    },
+    {
+      "source": 73,
+      "target": 5,
+      "relation": "Similar"
+    },
+    {
+      "source": 77,
+      "target": 78,
+      "relation": "Contrary"
+    },
+    {
+      "source": 77,
+      "target": 28,
+      "relation": "Similar"
+    },
+    {
+      "source": 78,
+      "target": 77,
+      "relation": "Contrary"
+    },
+    {
+      "source": 78,
+      "target": 29,
+      "relation": "Similar"
+    },
+    {
+      "source": 81,
+      "target": 82,
+      "relation": "Contrary"
+    },
+    {
+      "source": 82,
+      "target": 81,
+      "relation": "Contrary"
+    },
+    {
+      "source": 83,
+      "target": 32,
+      "relation": "Similar"
+    },
+    {
+      "source": 84,
+      "target": 85,
+      "relation": "Contrary"
+    },
+    {
+      "source": 84,
+      "target": 22,
+      "relation": "Similar"
+    },
+    {
+      "source": 85,
+      "target": 84,
+      "relation": "Contrary"
+    },
+    {
+      "source": 86,
+      "target": 88,
+      "relation": "Contrary"
+    },
+    {
+      "source": 86,
+      "target": 1,
+      "relation": "Similar"
+    },
+    {
+      "source": 87,
+      "target": 88,
+      "relation": "Contrary"
+    },
+    {
+      "source": 88,
+      "target": 86,
+      "relation": "Contrary"
+    },
+    {
+      "source": 88,
+      "target": 87,
+      "relation": "Contrary"
+    },
+    {
+      "source": 89,
+      "target": 2,
+      "relation": "Similar"
+    },
+    {
+      "source": 90,
+      "target": 91,
+      "relation": "Contrary"
+    },
+    {
+      "source": 90,
+      "target": 8,
+      "relation": "Similar"
+    },
+    {
+      "source": 91,
+      "target": 90,
+      "relation": "Contrary"
+    },
+    {
+      "source": 92,
+      "target": 91,
+      "relation": "Related"
+    },
+    {
+      "source": 93,
+      "target": 94,
+      "relation": "Contrary"
+    },
+    {
+      "source": 93,
+      "target": 13,
+      "relation": "Similar"
+    },
+    {
+      "source": 94,
+      "target": 93,
+      "relation": "Contrary"
+    },
+    {
+      "source": 95,
+      "target": 96,
+      "relation": "Contrary"
+    },
+    {
+      "source": 95,
+      "target": 15,
+      "relation": "Similar"
+    },
+    {
+      "source": 96,
+      "target": 95,
+      "relation": "Contrary"
+    },
+    {
+      "source": 97,
+      "target": 98,
+      "relation": "Contrary"
+    },
+    {
+      "source": 97,
+      "target": 16,
+      "relation": "Similar"
+    },
+    {
+      "source": 98,
+      "target": 97,
+      "relation": "Contrary"
+    },
+    {
+      "source": 100,
+      "target": 18,
+      "relation": "Related"
+    },
+    {
+      "source": 101,
+      "target": 102,
+      "relation": "Contrary"
+    },
+    {
+      "source": 102,
+      "target": 101,
+      "relation": "Contrary"
+    },
+    {
+      "source": 104,
+      "target": 45,
+      "relation": "Similar"
+    }
+  ]
+}

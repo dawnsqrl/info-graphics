@@ -1,0 +1,12 @@
+body {
+    font-family: 'Inter UI', system-ui;
+    user-select: none;
+}
+
+#main {
+    margin: 20px;
+
+    svg {
+        border: 1px solid #808080;
+    }
+}

@@ -1,0 +1,16 @@
+.node {
+    --original-opacity: 1;
+    stroke-width: 3px;
+}
+
+.link {
+    --original-opacity: 1;
+    pointer-events: none;
+    stroke-width: 2px;
+}
+
+.link.hitbox {
+    pointer-events: stroke;
+    stroke-width: 20px;
+    opacity: 0;
+}
