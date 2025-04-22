@@ -101,9 +101,7 @@ d3.json('coding.json').then(dataset => {
         .direction(d => typeTipStyle[d.type][0])
         .attr('class', 'd3-tip')
         .offset(d => typeTipStyle[d.type][1])
-        .html(d => `<div>
-<p>Code Type: <em>${d.type}</em></p>
-</div>`)
+        .html(d => getTypeTooltip(d.type, nodes))
     svg.call(typeTip)
     typeEnter.on('mouseover', e => {
         typeTip.show(e)
@@ -132,13 +130,7 @@ d3.json('coding.json').then(dataset => {
         .offset([0, 12])
         .html(d => {
             d = nodes[d.index]
-            return `<div>
-<p>Code #${d.id}</p>
-<p><em>${d.code}${d.code.endsWith('.') ? '' : '.'}</em></p>
-<p class='fade'>Code Type: <em>${d.type}</em></p>
-<p class='fade'>Category: <em>${d.category}</em></p>
-<p class='fade'>Occurrences: ${d.count}</p>
-</div>`
+            return getNodeTooltip(d.id, d.code, d.type, d.category, d.count)
         })
     svg.call(nodeTip)
     nodeEnter.on('mouseover', e => {
@@ -162,13 +154,11 @@ d3.json('coding.json').then(dataset => {
     let linkTip = d3.tip().direction('e')
         .attr('class', 'd3-tip')
         .offset([0, 12])
-        .html(d => {
-            let source = nodes[d.source.index]
-            let target = nodes[d.target.index]
-            return `<div>
-<p>Code #${source.id} is <em>${d.relation.toLowerCase()} to</em> code #${target.id}</p>
-</div>`
-        })
+        .html(d => getLinkTooltip(
+            nodes[d.source.index].id,
+            nodes[d.target.index].id,
+            d.relation
+        ))
     svg.call(linkTip)
     linkEnter.on('mouseover', e => {
         linkTip.show(e)

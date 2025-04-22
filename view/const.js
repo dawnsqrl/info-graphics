@@ -45,3 +45,26 @@ function getCategoryColor(category, foreground = false) {
         _ => _.category
     ).indexOf(category)].color][foreground ? 0 : 1]
 }
+
+function getNodeTooltip(id, code, type, category, count) {
+    return `<div>
+<p>Code #${id}</p>
+<p><em>${code}${code.endsWith('.') ? '' : '.'}</em></p>
+<p class='fade'>Code Type: <em>${type}</em></p>
+<p class='fade'>Category: <em>${category}</em></p>
+<p class='fade'>Paper Occurrences: ${count}</p>
+</div>`
+}
+
+function getLinkTooltip(source_id, target_id, relation) {
+    return `<div>
+<p>Code #${source_id} is <em>${relation.toLowerCase()} to</em> code #${target_id}</p>
+</div>`
+}
+
+function getTypeTooltip(type, nodes) {
+    return `<div>
+<p>Code Type: <em>${type}</em></p>
+<p class='fade'>${nodes.filter(d => d.type === type).length} Codes</p>
+</div>`
+}

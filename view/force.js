@@ -181,13 +181,7 @@ d3.json('coding.json').then(dataset => {
     let nodeTip = d3.tip().direction('s')
         .attr('class', 'd3-tip')
         .offset([12, 0])
-        .html(d => `<div>
-<p>Code #${d.id}</p>
-<p><em>${d.code}${d.code.endsWith('.') ? '' : '.'}</em></p>
-<p class='fade'>Code Type: <em>${d.type}</em></p>
-<p class='fade'>Category: <em>${d.category}</em></p>
-<p class='fade'>Occurrences: ${d.count}</p>
-</div>`)
+        .html(d => getNodeTooltip(d.id, d.code, d.type, d.category, d.count))
     svg.call(nodeTip)
     nodeEnter.on('mouseover', e => {
         nodeTip.show(e)
@@ -210,9 +204,7 @@ d3.json('coding.json').then(dataset => {
     let linkTip = d3.tip().direction('s')
         .attr('class', 'd3-tip')
         .offset([20, 0])
-        .html(d => `<div>
-<p>Code #${d.source.id} is <em>${d.relation.toLowerCase()} to</em> code #${d.target.id}</p>
-</div>`)
+        .html(d => getLinkTooltip(d.source.id, d.target.id, d.relation))
     svg.call(linkTip)
     linkEnter.on('mouseover', e => {
         linkTip.show(e)
