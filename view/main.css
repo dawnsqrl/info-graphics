@@ -1,3 +1,7 @@
+:root {
+    --border-radius: 2px;
+}
+
 body {
     font-family: 'Inter UI', system-ui;
     user-select: none;
@@ -5,8 +9,44 @@ body {
 
 #main {
     margin: 20px;
+}
 
-    svg {
-        border: 1px solid #808080;
-    }
+svg.main {
+    border: 1px solid #aaa;
+    border-radius: var(--border-radius);
+}
+
+p {
+    margin: 0;
+}
+
+.legend {
+    background: #eee;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    margin-left: 5px;
+}
+
+div.legend {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}
+
+svg.legend {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    padding: 0;
+}
+
+p.legend {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+p.legend.title:not(:first-child) {
+    margin-top: 5px;
 }

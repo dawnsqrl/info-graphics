@@ -4,6 +4,7 @@ let svg = d3.select('svg')
     .attr('width', width)
     .attr('height', height)
 
+let showAlpha = false
 let useHorizontalClustering = true
 let alphaTarget = 0.3
 let linkStrength = 2
@@ -228,11 +229,15 @@ d3.json('coding.json').then(dataset => {
             .classed('blur', false)
     })
 
-    setInterval(
-        () => d3.selectAll('#alpha').text(
-            `alpha = ${simulation.alpha().toFixed(4)}`
-        ), 10
-    )
+    if (showAlpha) {
+        setInterval(
+            () => d3.selectAll('#alpha').text(
+                `alpha = ${simulation.alpha().toFixed(4)}`
+            ), 10
+        )
+    }
+
+    appendLegend()
 })
 
 function getLinkDistance(d) {
@@ -273,4 +278,69 @@ function getLinkTargetX(d, scale) {
 
 function getLinkTargetY(d, scale) {
     return getLinkTarget(d, scale)[1]
+}
+
+function appendLegend() {
+    let blockHeight = 16
+    let blockWidth = 32
+    let radius = 6
+    let legend = d3.selectAll('.legend')
+
+    appendTypeLegendTitle(legend)
+    let typeLegend = legend.append('div').selectAll('div')
+        .data(typeData).enter()
+        .append('div')
+    typeLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockHeight)
+        .attr('height', blockHeight)
+        .append('circle')
+        .attr('class', 'node')
+        .attr('r', radius)
+        .attr('cx', blockHeight / 2)
+        .attr('cy', blockHeight / 2)
+        .attr('fill', 'none')
+        .attr('stroke', d => getTypeColor(d.type))
+    typeLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.type)
+
+    appendNodeLegendTitle(legend)
+    let nodeLegend = legend.append('div').selectAll('div')
+        .data(categoryData).enter()
+        .append('div')
+    nodeLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockHeight)
+        .attr('height', blockHeight)
+        .append('circle')
+        .attr('class', 'node')
+        .attr('r', radius)
+        .attr('cx', blockHeight / 2)
+        .attr('cy', blockHeight / 2)
+        .attr('stroke', '#444')
+        .attr('fill', d => getCategoryColor(d.category))
+    nodeLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.category)
+
+    appendLinkLegendTitle(legend)
+    let linkLegend = legend.append('div').selectAll('div')
+        .data(linkData).enter()
+        .append('div')
+    linkLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockWidth)
+        .attr('height', blockHeight)
+        .append('line')
+        .attr('class', 'link')
+        .attr('x1', 0)
+        .attr('x2', blockWidth)
+        .attr('y1', blockHeight / 2)
+        .attr('y2', blockHeight / 2)
+        .attr('marker-end', d => `url(#marker-${d.relation})`)
+        .attr('stroke', d => getLinkColor(d.relation))
+    linkLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.relation)
 }

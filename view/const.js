@@ -50,7 +50,7 @@ function getNodeTooltip(id, code, type, category, count) {
     return `<div>
 <p>Code #${id}</p>
 <p><em>${code}${code.endsWith('.') ? '' : '.'}</em></p>
-<p class='fade'>Code Type: <em>${type}</em></p>
+<p class='fade'>Type: <em>${type}</em></p>
 <p class='fade'>Category: <em>${category}</em></p>
 <p class='fade'>Paper Occurrences: ${count}</p>
 </div>`
@@ -67,4 +67,25 @@ function getTypeTooltip(type, nodes) {
 <p>Code Type: <em>${type}</em></p>
 <p class='fade'>${nodes.filter(d => d.type === type).length} Codes</p>
 </div>`
+}
+
+function appendNodeLegendTitle(legend) {
+    legend.append('p')
+        .attr('class', 'legend title')
+        .append('strong')
+        .text('Code Category')
+}
+
+function appendLinkLegendTitle(legend) {
+    legend.append('p')
+        .attr('class', 'legend title')
+        .append('strong')
+        .text('Code Relationship')
+}
+
+function appendTypeLegendTitle(legend) {
+    legend.append('p')
+        .attr('class', 'legend title')
+        .append('strong')
+        .text('Code Type')
 }

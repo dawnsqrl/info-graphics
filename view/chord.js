@@ -1,12 +1,11 @@
-let width = 800
-let height = 800
-let radius = Math.min(width, height) / 2 - 40
+let size = 800
+let radius = size / 2 - 40
 let radialMargin = 5
 let angularMargin = 5
 let svg = d3.select('svg')
-    .attr('width', width)
-    .attr('height', height)
-    .attr('viewBox', [-width / 2, -height / 2, width, height])
+    .attr('width', size)
+    .attr('height', size)
+    .attr('viewBox', [-size / 2, -size / 2, size, size])
 
 d3.json('coding.json').then(dataset => {
     let nodes = dataset.nodes
@@ -181,4 +180,62 @@ d3.json('coding.json').then(dataset => {
             ))
             .classed('blur', false)
     })
+
+    appendLegend()
 })
+
+function appendLegend() {
+    let blockSize = 16
+    let legend = d3.selectAll('.legend')
+
+    appendTypeLegendTitle(legend)
+    let typeLegend = legend.append('div').selectAll('div')
+        .data(typeData).enter()
+        .append('div')
+    typeLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .append('rect')
+        .attr('class', 'chord type')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .attr('fill', d => getTypeColor(d.type))
+    typeLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.type)
+
+    appendNodeLegendTitle(legend)
+    let nodeLegend = legend.append('div').selectAll('div')
+        .data(categoryData).enter()
+        .append('div')
+    nodeLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .append('rect')
+        .attr('class', 'chord node')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .attr('fill', d => getCategoryColor(d.category, true))
+    nodeLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.category)
+
+    appendLinkLegendTitle(legend)
+    let linkLegend = legend.append('div').selectAll('div')
+        .data(linkData).enter()
+        .append('div')
+    linkLegend.append('svg')
+        .attr('class', 'legend')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .append('rect')
+        .attr('class', 'ribbon')
+        .attr('width', blockSize)
+        .attr('height', blockSize)
+        .attr('fill', d => getLinkColor(d.relation))
+    linkLegend.append('p')
+        .attr('class', 'legend')
+        .text(d => d.relation)
+}
